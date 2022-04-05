@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #7952b3;
+    height: 80px;
+}
+
+body {
+    background-image: url('Images/backcover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+.container22{
+    margin-top: 40px;
+    height: auto;
+    width: 500px;
+    border: 2px solid rgba(255, 0, 34, 0.488);
+    border-radius: 20px;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0px 0px 10px 0px;
+
+}
+
+#posts{
+    padding-top: 17px;
+}
+
+.refresh{
+    text-align: end;
+}

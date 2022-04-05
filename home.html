@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="Images/favcon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+   </head>
+   <body>
+                   <!-- NavBar Begining -->
+
+      <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Images/logo.png" alt="" width="45" height="30" class="d-inline-block align-text-top ms-3">
+            To-Do App
+          </a>
+          <button class="logout btn btn-outline-warning me-4" onclick="return logout()">Log Out</button>
+        </div>
+      </nav>
+
+                  <!-- NavBar Ending -->
+
+
+             <!-- Refresh Button Starting -->
+     <br>
+       <div class="container">
+         <div class="row justify-content-end">
+           <div class="col-8">
+             </div>
+               <div class="col-4 refresh">
+                 <button class="uncheck btn btn-danger " onclick="return ajax()">Uncheck All</button>
+                </div>
+              </div>
+             </div>
+
+           <!-- Refresh Button Ending -->
+
+
+           <!-- JASON Content list Starting -->
+
+      <div class="container22 container">
+        <div id="posts"></div>
+      </div>
+      
+           <!-- JASON Content list Ending -->
+
+  
+     
+
+
+    <script src="todo.js"></script>
+   </body>
+   </html>

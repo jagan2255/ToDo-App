@@ -1,0 +1,19 @@
+body {
+  background-image: url('Images/Login Image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.container{
+    border: 2px solid rgba(255, 255, 255, 0.438);
+    background-color: rgba(255, 255, 255, 0.477);
+    margin-top: 17vh;
+    height: 450px;
+    width: 450px;
+    padding-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+
