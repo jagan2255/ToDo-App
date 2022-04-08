@@ -41,7 +41,7 @@ function ajax() {
            resolve(alert("Congrats 5 Tasks have been successfully completed."));
           }
           else{
-            //reject();
+            // reject();
              return;        
           }
 
@@ -49,16 +49,7 @@ function ajax() {
      })
    }
 
-             //Background Color change
-
-         $("#posts").on("click",".checkbox",function(){
-        if($(this).prop("checked") == true){
-            $(this).parent().wrap( "<div class='list-group-item-danger'></div>" );
-        }
-        else{
-            $(this).parent().unwrap();
-        }
-      })
+            
 
            //  Logout Button
     
@@ -70,9 +61,6 @@ function ajax() {
 
 
         
-
-      
-
 
 
       
