@@ -41,10 +41,11 @@ function ajax() {
            resolve(alert("Congrats 5 Tasks have been successfully completed."));
           }
           else{
-            reject();
+            //reject();
+             return;        
           }
 
-       },200);
+       },100);
      })
    }
 
