@@ -48,6 +48,17 @@ function ajax() {
      })
    }
 
+             //Background Color change
+
+         $("#posts").on("click",".checkbox",function(){
+        if($(this).prop("checked") == true){
+            $(this).parent().wrap( "<div class='list-group-item-danger'></div>" );
+        }
+        else{
+            $(this).parent().unwrap();
+        }
+      })
+
            //  Logout Button
     
       var logout1 = document.getElementsByClassName("log1");
